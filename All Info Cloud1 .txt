@@ -1,0 +1,75 @@
+AWS:
+
+EC2: for hardware, VM setup.
+
+VM:
+	AMI (os, windows, linux/unix)
+	Instance type/size: RAM, Storage, computer power etc
+
+		t2.--- for like: web servers, code repositories
+		General: for RAM etc
+		Compute Optimized:
+			batch processing
+			high performance web servers
+			decicated gaming servers
+			machine learning inference
+
+		Memory Optimized:
+			High performance Databases
+			Aplication performance real time processing of big unstructural data
+		
+		
+	EBS,EFS: storage
+		Storage optimized: read/write access, random I/O operations per seconds
+			Redis chach
+			Distributed File Systesm
+			Datawarehousing Appications.
+	Port: Security groups -- add rules custom TCP,Protocol
+		Security Groups: virtual firewall. outbound traffic is allowed by default, inbound is blocked, like inbound: SSH, http; outbound: all trafic
+load Balancer: Distributing load across instances  
+
+Auto Scaling
+
+***********************************************
+
+elastic search:
+
+	1. Json based
+	2. Through RESTFUL API
+	3.lOGS, Matrics, App trace data
+
+	4. compare with relational db:
+		DB -- Inexes/indice
+		Tables -- Patterns/Types/Collections
+		Rows - documents
+		Columns -- Fields
+
+ELK statck?
+
+	ES
+	
+Kibana is a UI dashboard or Widgets/visualizations.
+
+Logstash: is Input of all kinds of data/ Transform/stash
+
+Bit?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
