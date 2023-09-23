@@ -1,0 +1,5 @@
+install: 
+https://docs.docker.com/desktop/install/windows-install/
+
+update kernl:
+cmd:  wsl.exe --update
